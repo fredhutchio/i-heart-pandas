@@ -54,7 +54,7 @@ It's good for
 
 
 
-# My take
+# IMHO
 
 &nbsp;
 
@@ -62,6 +62,7 @@ It's good for
 * Python has less special syntax (verbosity vs clarity)
 * Having one language is a big win
 * Machine learning is stronger in Python
+* Cython is very pleasant to use
 
 &nbsp;
 
