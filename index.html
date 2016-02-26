@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Frederick Erick Matsen" />
+  <title>Why pandas?</title>
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css"/>
+    <style type="text/css">code{white-space: pre;}</style>
+    <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+    <!-- If the query includes 'print-pdf', include the PDF print sheet -->
+    <script>
+      if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = 'reveal.js/css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+      }
+    </script>
+    <!--[if lt IE 9]>
+    <script src="reveal.js/lib/js/html5shiv.js"></script>
+    <![endif]-->
+    <style type="text/css">
+        .reveal { font-size: 36px; }
+    </style>
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section>
+    <h1 class="title">Why pandas?</h1>
+    <h2 class="author">Frederick “Erick” Matsen</h2>
+    <h3 class="date"><a href="http://matsen.fredhutch.org/">http://matsen.fredhutch.org/</a> <br> <a href="https://twitter.com/ematsen">@ematsen</a></h3>
+</section>
+
+<section id="section" class="slide level1">
+<h1></h1>
+<section data-background="http://aasnova.org/wp-content/uploads/2016/02/fig1_large.png"> </section>
+
+</section>
+<section id="the-ligo-data-was-analyzed-in-python" class="slide level1">
+<h1><a href="https://losc.ligo.org/s/events/GW150914/GW150914_tutorial.html">The LIGO data was analyzed in Python</a></h1>
+<p> </p>
+<p>Why?</p>
+</section>
+<section id="python-can-be-your-single-language." class="slide level1">
+<h1>Python can be your single language.</h1>
+<p>It’s good for</p>
+<ul>
+<li class="fragment"> 
+Running other programs
+<li class="fragment"> 
+Parsing output and assembling results
+<li class="fragment"> 
+Implementing algorithms*
+<li class="fragment"> 
+Group coding
+</ul>
+
+
+</section>
+<section id="pandas-enables-data-analysis-in-python" class="slide level1">
+<h1>pandas enables data analysis in Python</h1>
+<p> </p>
+<ul>
+<li>Central object: the data frame</li>
+<li>Read/write tabular data in a variety of formats</li>
+<li>Many ways to slice up data and apply functions</li>
+<li>Plotting integration with Matplotlib</li>
+</ul>
+</section>
+<section id="alternatives" class="slide level1">
+<h1>Alternatives</h1>
+<p> </p>
+<ul>
+<li>R (see next slide)</li>
+<li>Perl/Ruby (if you like more flexibility)</li>
+<li>Julia (more purpose-built for science; faster)</li>
+</ul>
+</section>
+<section id="you-should-use-r-if" class="slide level1">
+<h1>You should use R if</h1>
+<p> </p>
+<ul>
+<li>Classical statistical modeling is your primary goal</li>
+<li>There are packages that suit your needs (e.g. Bioconductor)</li>
+<li>Everyone in your sub-discipline use R</li>
+<li>Systems-level programming is less of a concern</li>
+<li>You aren’t bothered by having five object systems</li>
+</ul>
+</section>
+<section id="my-take" class="slide level1">
+<h1>My take</h1>
+<p> </p>
+<ul>
+<li>pandas has far fewer gotchas, and they are documented</li>
+<li>Python has less special syntax (verbosity vs clarity)</li>
+<li>Having one language is a big win</li>
+<li>Machine learning is stronger in Python</li>
+</ul>
+<p> </p>
+<ul>
+<li>R is more mature, and better documented</li>
+<li>ggplot2 is better than Matplotlib</li>
+<li>Statistics is much stronger in R</li>
+</ul>
+</section>
+    </div>
+  </div>
+
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: 'fade', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+//          { src: 'reveal.js/plugin/search/search.js', async: true, condition: function() { return !!document.body.classList; }, }
+//          { src: 'reveal.js/plugin/remotes/remotes.js', async: true, condition: function() { return !!document.body.classList; } }
+]});
+    </script>
+    </body>
+</html>
