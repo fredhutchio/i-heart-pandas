@@ -69,3 +69,20 @@ It's good for
 * R is more mature, and better documented
 * ggplot2 is better than Matplotlib
 * Statistics is much stronger in R
+
+
+# Onto the class!
+
+<div style="font-size: 1.7em">
+<https://jupyterhub.fhcrc.org>
+</div>
+
+&nbsp;
+
+Notes:
+
+* `https` is important
+* use your Fred Hutch login
+* only available behind firewall
+* CIT wants your feedback!
+* use your red sticky note
