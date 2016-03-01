@@ -48,10 +48,9 @@ It's good for
 
 * Classical statistical modeling is your primary goal
 * There are packages that suit your needs (e.g. Bioconductor)
-* Everyone in your sub-discipline use R
+* Everyone in your sub-discipline uses R
 * Systems-level programming is less of a concern
 * You aren't bothered by having five object systems
-
 
 
 # IMHO
@@ -69,6 +68,9 @@ It's good for
 * R is more mature, and better documented
 * ggplot2 is better than Matplotlib
 * Statistics is much stronger in R
+
+
+# What a notebook looks like
 
 
 # Onto the class!
